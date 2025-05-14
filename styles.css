@@ -1,53 +1,119 @@
-.cartelera {
-    display: inline-table;
+body {
+    background-color: #111;
+    color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    color: rgb(140, 172, 228);
+    text-shadow: #e22828;
+
+}
+
+div {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    max-width: 900px;
+    justify-items: center;
+    justify-content: center;
+  
+} 
+
+
+button {
+    
+    padding: 5px;
+    margin-left: 30px;
+} 
+
+table {
+    background-color: #111;
+    border:1px solid #d2c5c5;
+    border-radius: 5px;
+    color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+
+th {  /*encabezados*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    font-size: medium;
+    margin-left: auto;
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+tr { /*filas*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    overflow-x: auto;
+}
+
+td { /*datos de las celdas*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    border: 1px solid #666;
+    padding:4px;
+    
+}
+
+
 
 .ATP:hover {
 background-color: aquamarine;
+color: #1a1a1a;
 }
 
 .trece:hover {
 background-color: rgb(212, 235, 64);
+color: #1a1a1a;
 }
 
 .dieciseis:hover {
 background-color: rgb(243, 133, 30);
+color: #1a1a1a;
 }
 
 .dieciocho:hover {
 background-color: rgb(228, 26, 26);
 }
 
-th {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin-left: auto;
-    border: 1px solid #666;
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
 }
 
-tr {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin-left: auto;
-    border: 1px solid #666;
-
-}
-
-row
-
-td {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin-left: auto;
-    border: 1px solid #666;
-
-}
-
-table {
-    border: 1px solid #cd2121;
-    border-radius: 4px;
-    margin-top: 20px;
+input {
     padding: 5px;
-
+    margin: 5px;
 }
 
+select {
+    padding: 5px;
+    margin: 3px;
+}
