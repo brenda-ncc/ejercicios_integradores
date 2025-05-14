@@ -1,0 +1,53 @@
+.cartelera {
+    display: inline-table;
+}
+
+.ATP:hover {
+background-color: aquamarine;
+}
+
+.trece:hover {
+background-color: rgb(212, 235, 64);
+}
+
+.dieciseis:hover {
+background-color: rgb(243, 133, 30);
+}
+
+.dieciocho:hover {
+background-color: rgb(228, 26, 26);
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: auto;
+    border: 1px solid #666;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: auto;
+    border: 1px solid #666;
+
+}
+
+row
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: auto;
+    border: 1px solid #666;
+
+}
+
+table {
+    border: 1px solid #cd2121;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
