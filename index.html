@@ -9,9 +9,20 @@
 <body>
     <h1>Cartelera de Cine</h1>
 
-    <!-- FORMULARIO  --> 
+     <!-- TABLA  -->  
+    <table id="catalogo">
+    <tr>
+         <th>Titulo</th>
+         <th>Año</th>
+         <th>Clasificacion</th>
+         <th>Genero</th>
+   </tr>
+    </table>
+
+<!-- FORMULARIO  --> 
+  <h3>Ingreso de peliculas</h3>
+     <div>
     <form action="">
-        <h2>Ingreso de peliculas</h2>
         <label for="Titulo">Titulo: </label>
         <input name="Titulo" placeholder="Titulo" id="titulo">
 
@@ -27,7 +38,7 @@
     <!-- ANO  --> 
         <label for="Ano">Ano: </label>
         <input type="date" name="Ano" id="ano" min="1900-01-01">
-        
+
     <!-- CLASIFICACION  --> 
         <label for="Clasificacion">Clasificacion: </label>
         <select name="Clasificacion" placeholder="Clasificacion" id="clasificacion">       
@@ -35,22 +46,13 @@
                 <option value="+13">+13</option>
                 <option value="+16">+16</option>
                 <option value="+18">+18</option>
-        </select>
-    <!-- FORMULARIO  --> 
+        </select> 
+    <!-- BOTON  --> 
     <button class="btn1" type="button" onclick="agregarPelicula()">Agregar Pelicula</button>
+    
     </form>
-
-
-     <!-- FORMULARIO  -->  
-    <table id="catalogo">
-    <tr>
-         <th>Titulo</th>
-         <th>Año</th>
-         <th>Clasificacion</th>
-         <th>Genero</th>
-   </tr>
-    </table>
 </div>
+
     <script src="script.js"></script>
 </body>
 </html>
